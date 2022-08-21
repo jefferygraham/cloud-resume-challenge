@@ -17,6 +17,12 @@ hr {
   margin-top: 0;
 }
 
+h3 span {
+  float: right;
+  font-weight: normal;
+  font-size: 0.95rem;
+}
+
 .contact a {
   color: whitesmoke;
 }
@@ -78,6 +84,10 @@ hr {
   list-style-type: none;
 }
 
+.experience h4 {
+  font-style: italic;
+}
+
 .experience h3,
 .education h3 {
   margin-bottom: 0;
@@ -98,6 +108,10 @@ hr {
   list-style-type: none;
 }
 
+.education h4 {
+  font-size: 0.9rem;
+}
+
 .side-panel {
   grid-area: side-panel;
   background-color: #ebebeb;
@@ -106,8 +120,11 @@ hr {
 
 .footer {
   grid-area: footer;
-  margin: auto;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5rem;
 }
 
 .resume {
